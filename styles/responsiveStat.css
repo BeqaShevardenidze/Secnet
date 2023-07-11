@@ -1,0 +1,97 @@
+/* 800 */
+@media screen and (max-width:800px) {
+    .stat-cont header h2{
+        text-align: center;
+    }
+}
+
+/* 735 */
+@media screen and (max-width:735px) {
+    .header{
+        height: 150px;
+        transition: all .3s linear;
+    }
+    .stat{
+        display: block;
+    }
+    .stat-cont{
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .stat-cont header h2{
+        text-align: center;
+    }
+
+    .stat-cont button{
+        margin-left: 40px;
+    }
+
+    .stat img{
+        margin-top: 50px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+
+
+/* 685 */
+@media screen and (max-width:685px) {
+    .stat-cont header h2{
+        font-size: 70px;
+        margin-bottom: -80px;
+    }
+    .stat img{
+        margin-top: 50px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+
+/* 638 */
+@media screen and (max-width:638px) {
+    .stat-cont button{
+        margin-left: 20px;
+    }
+}
+
+/* 500 */
+@media screen and (max-width:500px) {
+    .stat-cont button{
+        margin-left: 0px;
+    }
+}
+
+
+/* ///////////////////////////////////height */
+/* 500 */
+@media screen and (max-height:500px) {
+    .stat{
+        padding-bottom: 400px;
+    }
+}
+
+/* 395 */
+@media screen and (max-height:395px) {
+    .stat{
+        padding-bottom: 500px;
+    }
+}
+
+/* 270 */
+@media screen and (max-height:270px) {
+    .stat{
+        padding-bottom: 600px;
+    }
+}
+
+
+
+/* iphone se */
+@media screen and (max-width:375px) and  (max-width:667px){
+    .stat{
+        width: 65vh;
+    }
+}

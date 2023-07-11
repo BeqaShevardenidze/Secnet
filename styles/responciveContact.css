@@ -1,0 +1,121 @@
+@media only screen and (max-width:1159px) and (max-height: 892px) {
+    .contact{
+      justify-content: start;
+    }
+  
+    .box1{
+      margin-left: 50px;
+      width: 320px;
+    }
+    
+  }
+  
+  @media only screen and (max-width:893px) and (max-height: 892px) {
+    .contact{
+      display: block;
+    }
+  
+    .box1{
+      margin: 0;
+      width: 100%;
+    }
+    
+    .box1 h3{
+      margin: 0;
+      margin-bottom: 20px;
+      margin-left: 50%;
+      transform: translate(-50%);
+    }
+  
+    .box{
+      margin-left: 50%;
+      transform: translate(-50%);
+    }
+  }
+  
+  @media only screen and (max-width:539px) and (max-height: 878px) {
+    .box{
+      width: 450px;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 1px black;
+    }
+  }
+  
+
+@media only screen and (max-width:469px) and (max-height: 635px) {
+    .box{
+        width: 300px;
+    }
+
+    .name{
+        margin-left: 10%;
+        transform: translate(-10%);
+    }
+
+    .name .br{
+        display: block;
+    }
+    
+    .text textarea{
+        width: 200px;
+    }
+}
+
+
+
+@media only screen and (max-width:466px) and (max-height: 617px) {
+    .contact{
+        height: 120vh;
+    }
+}
+
+@media only screen and (max-width:1100px) and (max-height: 520px) {
+    .contact{
+        height: 120vh;
+    }
+}
+
+@media only screen and (max-width:886px) and (max-height: 520px) {
+    .contact{
+        height: 160vh;
+    }
+}
+
+@media only screen and (max-width:886px) and (max-height: 393px) {
+    .contact{
+        height: 200vh;
+    }
+}
+
+@media only screen and (max-height: 630px) {
+    .contact{
+        height: 140vh;
+    }
+}
+
+@media only screen and (max-height: 445px) {
+    .contact{
+        height: 170vh;
+    }
+}
+
+@media only screen and (max-height: 380px) {
+    .contact{
+        height: 200vh;
+    }
+}
+
+@media only screen and (max-height: 315px) {
+    .contact{
+        height: 300vh;
+    }
+}
+
+@media only screen and (max-height: 205px) {
+    .contact{
+        height: 350vh;
+    }
+}
